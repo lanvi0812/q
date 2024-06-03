@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be215df350.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <!-- Navigation Bar HTML -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"></a>
+            <div class="navbar__icons">
+                <div class="navbar__toggle" id="drop-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="navbar__cart">
+                    <img src="/images/cartlogo.png" alt="cart" class="cart__icon">
+                </div>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__page">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__page">
+                    <a href="/" class="navbar__links">Info</a>
+                </li>
+                <li class="navbar__page">
+                    <a href="/productlist.html" class="navbar__links">Shop</a>
+                </li>
+                <li class="navbar__page">
+                    <a href="/" class="navbar__links">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+ <!-- Main Section HTML -->
+ <main>
+    <div class="products__main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Product Details</h1>
+            </div>
+        </div>
+    </div>
+</main>
+
+ <!-- Product Description HTML -->
+ <div id="products"></div>
+ <div id="contentTemporary"></div>
+    <div class="detail">
+        <div class="image">
+            <img src="/images/product_bongoblue.png" alt="">
+        </div>
+        <div class="content">
+            <div class="name">Small Bongo Blue</div>
+            <div class="price">$50</div>
+            <div class="buttons">
+                <button>Checkout</button>
+                <button class="addCart">
+                    Add to Cart
+                </button>
+            </div>
+            <div class="description">
+                A petite ceramic wonder handcrafted with artisanal finesse in the vibrant heart of Melbourne. This small-sized marvel exudes elegance in its simplicity, boasting a calming blue hue that captivates the eye and soothes the soul. Meticulously crafted by skilled hands, each Bongo piece is a testament to the timeless artistry of ceramics, embodying a harmonious blend of form and function.
+            </div>
+        </div>
+        <div class="products__list"></div>
+    </div>
+
+
+
+    <!-- Shopping cart HTML -->
+    <div class="cart">
+        <h1>Shopping Cart</h1>
+        <div class="cart__items">
+            <div class="cart__empty">No item has been added</div>
+        </div>
+        <div class="cart__buttons">
+            <button class="close">Close</button>
+            <button class="checkout"><a href="checkout.html">Checkout</a></button>
+        </div>
+    </div>
+
+    <!-- Footer HTML -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/">How it's made</a>
+                    <a href="/">Testimonials</a>
+                    <a href="/">Workshops</a>
+                    <a href="/">Locations</a>
+                    <a href="/">Terms of Service</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Support</a>
+                    <a href="/">Contact</a>
+                    <a href="/">Destinations</a>
+                    <a href="/">Sponsorships</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a>
+                    <a href="/">Facebook</a>
+                    <a href="/">Twitter</a>
+                    <a href="/">Youtube</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Other</h2>
+                    <a href="/">Custom Pieces</a>
+                    <a href="/">School Excursion</a>
+                    <a href="/">Wedding</a>
+                    <a href="/">Studio Hire</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Klei on Beach</a>
+                </div>
+                <p class="website__right">© Klei on Beach 2024. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js" type="module"></script>
+</body>
+</html>
